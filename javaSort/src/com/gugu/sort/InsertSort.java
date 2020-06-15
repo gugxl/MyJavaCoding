@@ -9,11 +9,11 @@ package com.gugu.sort;
 public class InsertSort {
     public static void main(String[] args) {
         int[] arr = new int[]{1,7,5,2,9};
-        inserttSort(arr, arr.length);
+        insertSort(arr, arr.length);
         MyPrint.print(arr);
     }
 
-    private static void inserttSort(int[] arr, int length) {
+    private static void insertSort(int[] arr, int length) {
         int temp ;
         for (int i = 0; i < length - 1; i++) {
             for (int j = i+1; j > 0 ; j--) {
@@ -27,6 +27,5 @@ public class InsertSort {
             }
         }
     }
-
 
 }
