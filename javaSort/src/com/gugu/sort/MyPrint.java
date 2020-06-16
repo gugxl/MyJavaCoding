@@ -13,4 +13,10 @@ public class MyPrint {
         }
         System.out.println();
     }
+    public static void print(Double[] arr) {
+        for (Double i:arr) {
+            System.out.print(i+ "\t");
+        }
+        System.out.println();
+    }
 }

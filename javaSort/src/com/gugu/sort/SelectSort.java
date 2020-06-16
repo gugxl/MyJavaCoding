@@ -10,6 +10,7 @@ public class SelectSort {
     public static void main(String[] args) {
         int[] arr = new int[]{1,7,5,2,9};
         SelectSort(arr, arr.length);
+        MyPrint.print(arr);
     }
     
     public static void SelectSort(int[] arr, int length) {
@@ -27,7 +28,7 @@ public class SelectSort {
                 arr[minIndex] = temp;
             }
         }
-        MyPrint.print(arr);
+
     }
 
 
